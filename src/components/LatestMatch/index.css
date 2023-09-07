@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.latest-match-card {
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
+.competing-team-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-logo-container {
+    width: 65%;
+  }
+}
+
+.latest-match-comp-team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 23px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 992px) {
+  .latest-match-comp-team {
+    font-size: 28px;
+  }
+}
+
+.latest-match-date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 450;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .latest-match-date {
+    font-size: 23px;
+  }
+}
+
+.latest-match-venue {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 992px) {
+  .latest-match-venue {
+    font-size: 16px;
+  }
+}
+
+.latest-match-result-logo {
+  width: 80px;
+}
+
+@media (min-width: 575px) {
+  .latest-match-result-logo {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-result-logo {
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .latest-match-result-logo {
+    width: 200px;
+  }
+}
+
+.latest-match-innings-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 992px) {
+  .latest-match-innings-heading {
+    font-size: 22px;
+  }
+}
+
+.latest-match-innings-description {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 992px) {
+  .latest-match-innings-description {
+    font-size: 16px;
+  }
+}
